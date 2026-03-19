@@ -2,7 +2,7 @@
 
 This project automates the creation of high-fidelity, "messy" medical dialogue for training and testing clinical transcription models. It simulates the high-stress environment of an Intensive Care Unit (ICU) by layering professional medical speech with realistic environmental noise.
 
-## 📂 Project Structure
+##  Project Structure
 * **`generate_pilot.py`**: The main engine. Uses **Claude 4.6** to write scripts and **ElevenLabs Flash 2.5** to synthesize voices.
 * **`mix_icu_audio.py`**: An audio processing tool that layers background ICU noises (ventilators, alarms) over clean dialogue using `pydub`.
 * **`check_account.py`**: A diagnostic script to verify ElevenLabs API permissions and available Voice IDs.
